@@ -1,0 +1,59 @@
+@import url(./__image/card__image.css);
+@import url(./__description/card__description.css);
+@import url(./__title/card__title.css);
+@import url(./__heart/card__heart.css);
+@import url(./__delete/card__delete.css);
+
+@import url(./__heart/_mode/card__heart_mode_like.css);
+
+.card {
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 361px;
+    width: 282px;
+    background-size: 282px 282px;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width : 862px) and (max-width : 905px) {
+    .card {
+        margin-bottom: 21px;
+}
+
+    .card:nth-of-type(4) {
+        margin-bottom: 0;
+    }
+    .card:nth-of-type(5) {
+        margin-bottom: 0;
+    }
+    .card:nth-of-type(6) {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width : 581px) and (max-width : 861px) {
+    .card {
+        margin-bottom: 21px;
+    }
+    .card:nth-of-type(5) {
+        margin-bottom: 0;
+    }
+    .card:nth-of-type(6) {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width : 580px) {
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 21px;
+}
+    .card:last-of-type {
+        margin-bottom: 0;
+}
+}

@@ -1,0 +1,8 @@
+.card__heart_mode_like {
+    
+    background-image: url(../../../../images/cardHeartBlack.svg);
+}
+
+.card__heart_mode_like:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.popup__close {
+    height: 40.7px;
+    width: 40.7px;
+    background-image: url(../../../images/popupClose.svg);
+    background-position: center;
+    margin-left: 462px;
+    margin-top: -37px;
+}
+
+.popup__close:hover {
+    cursor: pointer;
+    background-image: url(../../../images/popupCloseGray.svg);
+}
+
+@media (max-width : 494px) {
+    .popup__close {
+        margin-left: 275px;
+        margin-top: -40px;
+    }
+}
